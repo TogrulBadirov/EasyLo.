@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    scroll-behavior: smooth;
+}
+
+#header {
+    background: linear-gradient(rgba(16, 201, 143, 0.4),
+            rgba(16, 201, 0143, 0.5)), url(/assets/img/h1_hero1.jpg.webp);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: #10C98F;
+
+}
+
+#navbar {
+
+
+    padding: 30px;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+#logo {
+    background: url(/assets/img/favicon.png.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    display: inline;
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 100px;
+    padding: 10px;
+}
+
+#logo a {
+    color: white;
+    text-decoration: none;
+    margin-left: 45px;
+}
+
+
+#menu {
+    float: right;
+    margin-right: 7%;
+
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+
+
+#apply-button {
+    padding: 20px 40px;
+    background-color: #10c98f;
+
+}
+
+
+
+.content {
+    position: absolute;
+    top: 150px;
+    left: 240px;
+
+}
+
+.main-heading {
+    display: inline-block;
+    width: 380px;
+    height: 510px;
+    margin-right: 365px;
+    overflow: hidden;
+
+}
+
+.main-heading h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 62px;
+    color: white;
+
+}
+
+.main-heading span {
+    display: block;
+    width: 110px;
+    height: 3px;
+    background-color: white;
+    margin: 20px 0;
+}
+
+.main-heading p {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.main-heading a {
+    transition: 0.35s;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    border: 2px solid white;
+    padding: 20px 40px;
+}
+
+.main-heading a:hover {
+    background-color: #10C98F;
+    border-color: transparent;
+}
+
+.form {
+    display: inline-block;
+    width: 415px;
+    height: 545px;
+    background-color: white;
+    overflow: hidden;
+    padding: 45px 35px 35px;
+}
+
+.form h2 {
+    font-size: 30px;
+    color: #0F4332;
+    margin: 10px;
+}
+
+.form p {
+    font-size: 14px;
+    color: #0F4332;
+    margin: 10px;
+    text-align: center;
+}
+
+.form #green-bar {
+    display: block;
+    width: 110px;
+    height: 3px;
+    background-color: #10C98F;
+    margin: 20px auto;
+}
+
+.form form label {
+    font-size: 12px;
+    font-family: "Chivo", sans-serif;
+
+    color: #0F4332;
+    ;
+}
+
+#category,
+#month {
+    width: 100%;
+}
+
+.form span {
+    color: #10C98F;
+    font-weight: bold;
+}
+
+.form #apply-now {
+    color: white;
+    background-color: #10C98F;
+    border: none;
+    font-size: 16px;
+    padding: 15px 130px;
+    cursor: pointer;
+    display: block;
+    margin: 25px 0;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.form form select {
+    border: 1px solid #C9D6CB;
+    padding: 15px 30px;
+    margin: 10px 0;
+
+}
+
+
+
+#back-to-main {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    position: fixed;
+    color: white;
+    padding: 15px 20px;
+    background-color: #10C98F;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 1px black;
+}
+
+
+
+#why-choose-us {
+    height: 90vh;
+    background-color: #E4F1ED;
+
+}
+
+.container {
+    height: 90vh;
+    background-color: #F4FCFA;
+    padding: 90px;
+
+}
+
+#why-choose-us .container .heading2 {
+    width: 35%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
+#why-choose-us .container .heading2 h2 {
+    font-size: 40px;
+    color: #0F4332;
+}
+
+#why-choose-us .container .heading2 span {
+    display: block;
+    width: 110px;
+    height: 3px;
+    background-color: #10C98F;
+    margin: 20px auto;
+}
+
+#why-choose-us .container .heading2 p {
+    color: #6D6D6D;
+    margin-bottom: 40px;
+}
+
+#why-choose-us .container .cards {
+    font-size: 0px;
+    display: block;
+    text-align: center;
+    width: 100%;
+
+}
+
+#why-choose-us .card {
+    width: 330px;
+    height: 330px;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+#why-choose-us .card img {
+    display: block;
+    margin: 20px auto;
+}
+
+#why-choose-us .card a {
+    text-decoration: none;
+    color: #0F4332;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px;
+    transition: .3s;
+}
+
+#why-choose-us .card p {
+    text-decoration: none;
+    font-family: "Chivo", sans-serif;
+    color: #4C5753;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px;
+    line-height: 1.5;
+}
+
+#why-choose-us .card .icon:hover a {
+
+    color: #10c98f;
+}
